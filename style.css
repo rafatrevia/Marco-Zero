@@ -1,0 +1,66 @@
+* {
+    margin: 40;    
+    padding: 20;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    font-size: 100%;
+    --nav-bg-color: #121212;
+    --nav-text-color: white;
+    --button-bg-color: #0052CE;
+    --button-text-color: white;
+  }
+
+  body{
+    font-size: 1,6rem;
+    font-family: 'Roboto';
+    background-color: white;
+  }
+
+  a{
+    text-decoration: none;
+    color: blue;
+  }
+
+  ul{
+    text-decoration: none;
+    color: black
+  }
+
+  nav {
+    display: flex;
+    justify-content:baseline 
+    align-items: center;  
+    padding: 0 2.4rem;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+  }
+ 
+  section{
+    margin-top: 5rem;
+    margin-bottom: 5rem;    
+  }
+
+  section p{
+    display: flex;
+    flex-wrap: wrap;  
+  }
+
+  footer {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: white;
+    background-image: linear-gradient(to right, gray, blue);  
+  }
+
+  footer ul {
+    float: center;
+    display: table;
+  }
+
